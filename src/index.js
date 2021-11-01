@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore, combineReducers } from 'redux';
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 
 import counterReducer from './store/reducers/counter';
 import resultReducer from './store/reducers/result';
@@ -12,7 +12,7 @@ import registerServiceWorker from './registerServiceWorker';
 import reducer from './store/reducer';
 
 const rootReducer = combineReducers({
-    ctr : counterReducer,
+    ctr: counterReducer,
     res: resultReducer
 })
 
